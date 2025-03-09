@@ -163,15 +163,42 @@ def prepare_json_for_visualization(data, viz_type):
     """Prepare JSON data for specific visualization types"""
     enhanced_data = enhance_cluster_data(data)
     
-    if viz_type == "dynamic-circlepacking":  # Updated to match HTML file name
+    if viz_type == "dynamic-circlepacking":
         # Dynamic cluster needs specific format
         formatted_data = {
             "name": "Root",
             "children": enhanced_data.get("children", [])
         }
     elif viz_type == "cluster-d3":
-        # Cluster-d3 may need a simpler format
-        formatted_data = enhanced_data
+        # Cluster-d3 needs a specific format with name and children properties
+        children = enhanced_data.get("children", [])
+        
+        # LIMIT THE NUMBER OF CLUSTERS - only take the first 50 clusters that have at least 2 items
+        limited_children = []
+        for cluster in children:
+            if "children" in cluster and len(cluster["children"]) >= 2:  # Only include clusters with at least 2 items
+                if "name" not in cluster:
+                    cluster["name"] = f"Cluster_{cluster.get('id', 'unknown')}"
+                
+                # Limit items in each cluster if there are too many
+                if len(cluster["children"]) > 10:
+                    cluster["children"] = cluster["children"][:10]  # Take only first 10 items
+                
+                # Ensure each item has a name
+                for item in cluster["children"]:
+                    if "name" not in item and "path" in item:
+                        item["name"] = os.path.basename(item["path"])
+                
+                limited_children.append(cluster)
+                
+                # Stop after we have 50 clusters
+                if len(limited_children) >= 50:
+                    break
+        
+        formatted_data = {
+            "name": "clusters",
+            "children": limited_children
+        }
     else:
         # Default format for circle packing
         formatted_data = enhanced_data
@@ -234,7 +261,7 @@ def setup_visualization_directory():
                         # Note: You need to check what file dynamic-circlepacking.html is looking for
                         # It's likely circle.json or dynamic_circle.json
                         output_file = viz_dir / "dynamic_circle.json"  # Adjust this based on what you find
-                
+                    
                     # Write the file
                     with open(output_file, 'w') as f:
                         json.dump(formatted_data, f, indent=2)
