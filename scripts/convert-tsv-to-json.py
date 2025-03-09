@@ -3,20 +3,31 @@ import subprocess
 import csv
 import os
 import json
+import argparse
 
 def main():
+    # Parse command line arguments
+    parser = argparse.ArgumentParser(description="Convert TSV to JSON")
+    parser.add_argument("--input", required=True, help="Input TSV file")
+    parser.add_argument("--output", required=True, help="Output JSON file")
+    parser.add_argument("--threshold", type=float, default=1.0, 
+                      help="Similarity threshold (1.0 means keep everything)")
+    args = parser.parse_args()
+    
     # Get the project root directory
     script_dir = os.path.dirname(os.path.abspath(__file__))
     project_root = os.path.dirname(script_dir)
     datasets_dir = os.path.join(project_root, 'datasets')
     
-    # Update paths to use the datasets directory for both input and output files
-    tsv_file = os.path.join(datasets_dir, 'merged_dataset.tsv')
-    json_file = os.path.join(datasets_dir, 'merged_dataset.json')
-    column_headers_file = os.path.join(datasets_dir, 'column_headers.txt')  # Now in datasets folder
-    object_type = 'haunted_places'  # You can change this to whatever object type you prefer
-    threshold = .8  # 80 percent similarity threshold
-
+    # Use the paths from command line arguments
+    tsv_file = args.input
+    json_file = args.output
+    column_headers_file = os.path.join(datasets_dir, 'column_headers.txt')
+    object_type = 'haunted_places'
+    threshold = args.threshold
+    
+    print(f"Converting {tsv_file} to {json_file} with threshold {threshold}")
+    
     # Create the column_headers.txt file from the TSV headers
     create_column_headers_file(tsv_file, column_headers_file)
     
@@ -38,6 +49,14 @@ def main():
         
     except subprocess.CalledProcessError as e:
         print(f"Error occurred while converting TSV to JSON: {e}", file=sys.stderr)
+        
+    # At the end of your main() function in convert-tsv-to-json.py, add:
+    try:
+        with open(json_file, 'r') as f:
+            data = json.load(f)
+            print(f"TOTAL RECORDS IN JSON: {len(data['haunted_places'])}")
+    except Exception as e:
+        print(f"Error counting records: {e}")
 
 def create_column_headers_file(tsv_file, column_headers_file):
     """Create a column headers file from the TSV headers."""
