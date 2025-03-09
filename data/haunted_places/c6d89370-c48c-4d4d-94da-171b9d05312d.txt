@@ -1,0 +1,35 @@
+Extreme_Precipitation_Event_Rate_Description: Unknown
+Trauma_And_Stressor_Related_Disorder_Count_Description: Moderate Cases
+Haunted_Places_Year: Other
+PM25_ugm3_Description: Unknown
+Anxiety_Disorder_Count_Description: Few Reported Cases
+Precipitation_Variability_Description: Unknown
+Primary_Depressive_Disorder_Count_Description: Few Reported Cases
+Appar_Orb_Count_Description: Moderate Sightings
+Appar_Ghost_Count_Description: Few Sightings
+Morning_Event_Count_Description: Rare Events
+Murder_Event_Count_Description: Few Incidents
+CO_ppb_Description: Unknown
+PM25_nitrate_ugm3_Description: Unknown
+Death_Event_Count_Description: Few Incidents
+Violent_Crime_Per_100k_Description: Unknown
+Ozone_ppb_Description: Unknown
+PM25_sulfate_ugm3_Description: Unknown
+Audio_Evidence_Count_Description: Little Evidence
+Binge_Drinking_Rate_Description: Unknown
+Primary_Schizophrenia_And_Other_Psychotic_Disorders_Count_Description: Few Reported Cases
+Visual_Evidence_Count_Description: Little Evidence
+Precipitation_Impact_Rate_Description: Unknown
+State: colorado
+id: c6d89370-c48c-4d4d-94da-171b9d05312d
+Supernatural_Event_Count_Description: Few Paranormal Incidents
+Homicide_Incidents_Per_100K_Description: Unknown
+Appar_UFO_Count_Description: Moderate Sightings
+Haunted_Places_Witness_Count_Description: Few Witnesses
+Annual_Alcohol_Deaths_Description: Unknown
+Bipolar_Disorder_Count_Description: Few Reported Cases
+Dusk_Event_Count_Description: Occasional Events
+SO2_ppb_Description: Unknown
+Attention_Deficit/Hyperactivity_Disorder_Count_Description: Few Reported Cases
+Evening_Event_Count_Description: Rare Events
+jaccard_score: 0.05982905982905983

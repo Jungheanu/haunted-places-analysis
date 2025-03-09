@@ -1,0 +1,35 @@
+Primary_Depressive_Disorder_Count_Description: Unknown
+Anxiety_Disorder_Count_Description: Unknown
+Annual_Alcohol_Deaths_Description: Few Alcohol-Related Deaths
+id: 3ce3ee55-2aca-4a0a-b783-1aa216f38091
+Homicide_Incidents_Per_100K_Description: Few Homicides
+Appar_Orb_Count_Description: Moderate Sightings
+Appar_Ghost_Count_Description: Few Sightings
+Extreme_Precipitation_Event_Rate_Description: Extreme Weather Variability
+Morning_Event_Count_Description: Rare Events
+SO2_ppb_Description: Good Air Quality
+Murder_Event_Count_Description: Few Incidents
+Trauma_And_Stressor_Related_Disorder_Count_Description: Unknown
+Binge_Drinking_Rate_Description: High Alcohol Consumption
+Death_Event_Count_Description: Few Incidents
+Precipitation_Variability_Description: Extreme Weather Variability
+PM25_ugm3_Description: Good Air Quality
+Primary_Schizophrenia_And_Other_Psychotic_Disorders_Count_Description: Unknown
+Violent_Crime_Per_100k_Description: Low Crime Rate
+PM25_sulfate_ugm3_Description: Unknown
+Audio_Evidence_Count_Description: Little Evidence
+Visual_Evidence_Count_Description: Little Evidence
+Precipitation_Impact_Rate_Description: Unknown
+CO_ppb_Description: Good Air Quality
+Bipolar_Disorder_Count_Description: Unknown
+Supernatural_Event_Count_Description: Few Paranormal Incidents
+Attention_Deficit/Hyperactivity_Disorder_Count_Description: Unknown
+PM25_nitrate_ugm3_Description: Poor Air Quality
+Appar_UFO_Count_Description: Moderate Sightings
+Haunted_Places_Witness_Count_Description: Few Witnesses
+Ozone_ppb_Description: Poor Air Quality
+Dusk_Event_Count_Description: Occasional Events
+State: nebraska
+Haunted_Places_Year: 2023
+Evening_Event_Count_Description: Rare Events
+jaccard_score: 0.0811965811965812

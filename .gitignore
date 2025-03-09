@@ -1,0 +1,16 @@
+.DS_Store
+.classpath
+.project
+.settings
+.pydevproject
+.pyc
+.python-version
+*/*.pyc
+/etllib.egg-info
+/doc.txt
+/build
+/dist
+.*.cfg
+bin
+develop-eggs
+parts

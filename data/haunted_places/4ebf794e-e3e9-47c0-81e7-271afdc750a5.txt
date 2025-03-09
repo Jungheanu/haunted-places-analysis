@@ -1,0 +1,35 @@
+Extreme_Precipitation_Event_Rate_Description: Unknown
+Haunted_Places_Witness_Count_Description: Moderate Witnesses
+Death_Event_Count_Description: Some Incidents
+Morning_Event_Count_Description: Occasional Events
+Haunted_Places_Year: Other
+Trauma_And_Stressor_Related_Disorder_Count_Description: Few Reported Cases
+Supernatural_Event_Count_Description: Moderate Paranormal Activity
+Primary_Depressive_Disorder_Count_Description: Moderate Cases
+Anxiety_Disorder_Count_Description: Few Reported Cases
+PM25_ugm3_Description: Unknown
+Precipitation_Variability_Description: Unknown
+Appar_Orb_Count_Description: Moderate Sightings
+CO_ppb_Description: Unknown
+PM25_nitrate_ugm3_Description: Unknown
+Violent_Crime_Per_100k_Description: Unknown
+Ozone_ppb_Description: Unknown
+PM25_sulfate_ugm3_Description: Unknown
+Binge_Drinking_Rate_Description: Unknown
+Audio_Evidence_Count_Description: Some Evidence
+Primary_Schizophrenia_And_Other_Psychotic_Disorders_Count_Description: Few Reported Cases
+Visual_Evidence_Count_Description: Some Evidence
+Precipitation_Impact_Rate_Description: Unknown
+Murder_Event_Count_Description: Some Incidents
+Evening_Event_Count_Description: Occasional Events
+Homicide_Incidents_Per_100K_Description: Unknown
+Appar_UFO_Count_Description: Moderate Sightings
+id: 4ebf794e-e3e9-47c0-81e7-271afdc750a5
+Bipolar_Disorder_Count_Description: Moderate Cases
+Annual_Alcohol_Deaths_Description: Unknown
+Attention_Deficit/Hyperactivity_Disorder_Count_Description: Moderate Cases
+State: michigan
+Dusk_Event_Count_Description: Occasional Events
+SO2_ppb_Description: Unknown
+Appar_Ghost_Count_Description: Moderate Sightings
+jaccard_score: 0.05128205128205128
