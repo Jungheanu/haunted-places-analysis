@@ -1,0 +1,35 @@
+Annual_Alcohol_Deaths_Description: Few Alcohol-Related Deaths
+Homicide_Incidents_Per_100K_Description: Few Homicides
+Haunted_Places_Witness_Count_Description: Few Witnesses
+PM25_ugm3_Description: Good Air Quality
+PM25_sulfate_ugm3_Description: Unknown
+Appar_Orb_Count_Description: Moderate Sightings
+Death_Event_Count_Description: Few Incidents
+id: 30929ab5-9183-4762-bf55-074320ff24f6
+Attention_Deficit/Hyperactivity_Disorder_Count_Description: Unknown
+Primary_Depressive_Disorder_Count_Description: Unknown
+Visual_Evidence_Count_Description: Little Evidence
+Precipitation_Impact_Rate_Description: Unknown
+Violent_Crime_Per_100k_Description: Low Crime Rate
+Supernatural_Event_Count_Description: Few Paranormal Incidents
+Extreme_Precipitation_Event_Rate_Description: Extreme Weather Variability
+Appar_Ghost_Count_Description: Few Sightings
+Binge_Drinking_Rate_Description: High Alcohol Consumption
+State: nebraska
+Dusk_Event_Count_Description: Occasional Events
+Anxiety_Disorder_Count_Description: Unknown
+Audio_Evidence_Count_Description: Little Evidence
+Bipolar_Disorder_Count_Description: Unknown
+SO2_ppb_Description: Good Air Quality
+Murder_Event_Count_Description: Few Incidents
+Trauma_And_Stressor_Related_Disorder_Count_Description: Unknown
+CO_ppb_Description: Good Air Quality
+Precipitation_Variability_Description: Extreme Weather Variability
+Haunted_Places_Year: 2023
+PM25_nitrate_ugm3_Description: Poor Air Quality
+Primary_Schizophrenia_And_Other_Psychotic_Disorders_Count_Description: Unknown
+Morning_Event_Count_Description: Rare Events
+Appar_UFO_Count_Description: Moderate Sightings
+Ozone_ppb_Description: Poor Air Quality
+Evening_Event_Count_Description: Rare Events
+jaccard_score: 0.0811965811965812

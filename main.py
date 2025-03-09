@@ -104,44 +104,31 @@ def break_json_to_files(json_file):
 def run_similarity_analysis(data_dir):
     """Run similarity analyses on the data"""
     print("\nRunning similarity analyses...")
-    
-    # Path to the similarity scripts
-    project_root = Path(__file__).parent  # FIXED: parent instead of parent.parent
-    similarity_scripts = [
-        project_root / "tika-similarity" / "tikasimilarity" / "distance" / "cosine_similarity.py",
-        project_root / "tika-similarity" / "tikasimilarity" / "distance" / "jaccard_similarity.py",
-        project_root / "tika-similarity" / "tikasimilarity" / "distance" / "edit_value_similarity.py"
+
+    # Path to the similarity script
+    project_root = Path(__file__).parent
+    similarity_script = project_root / "scripts" / "run-tika-similarity.py"
+
+    if not similarity_script.exists():
+        print(f"Error: Similarity script not found: {similarity_script}")
+        return None
+
+    # Run the similarity script
+    command = [
+        sys.executable,
+        str(similarity_script),
+        "--input-dir", str(data_dir),
+        "--type", "all"  # Run all similarity types
     ]
-    
-    # Output directory for results
-    results_dir = project_root / "similarity-results"
-    os.makedirs(results_dir, exist_ok=True)
-    
-    # Run each similarity analysis
-    for script in similarity_scripts:
-        if not script.exists():
-            print(f"Warning: Script not found: {script}")
-            continue
-            
-        script_name = script.name.replace(".py", "")
-        csv_output = results_dir / f"{script_name}.csv"
-        
-        command = [
-            sys.executable, 
-            str(script), 
-            "--inputDir", 
-            str(data_dir),
-            "--outCSV",
-            str(csv_output)
-        ]
-        
-        success, _ = run_command(command, f"Running {script_name}")
-        if success:
-            print(f"Similarity analysis complete: {csv_output}")
-        else:
-            print(f"Failed to run {script_name}")
-    
-    return results_dir
+
+    success, _ = run_command(command, "Running similarity analysis")
+    if success:
+        print("Successfully generated similarity scores")
+        results_dir = project_root / "similarity-results"
+        return results_dir
+    else:
+        print("Failed to generate similarity scores")
+        return None
 
 def generate_cluster_data():
     """Generate cluster data and visualization JSON files"""

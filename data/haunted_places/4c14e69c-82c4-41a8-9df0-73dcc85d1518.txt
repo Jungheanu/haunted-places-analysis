@@ -1,0 +1,35 @@
+Homicide_Incidents_Per_100K_Description: Unknown
+SO2_ppb_Description: Unknown
+Haunted_Places_Witness_Count_Description: Few Witnesses
+CO_ppb_Description: Unknown
+Precipitation_Variability_Description: Unknown
+PM25_sulfate_ugm3_Description: Unknown
+Appar_Orb_Count_Description: Moderate Sightings
+Death_Event_Count_Description: Few Incidents
+Annual_Alcohol_Deaths_Description: Unknown
+Attention_Deficit/Hyperactivity_Disorder_Count_Description: Unknown
+Primary_Depressive_Disorder_Count_Description: Unknown
+Visual_Evidence_Count_Description: Little Evidence
+Precipitation_Impact_Rate_Description: Unknown
+Supernatural_Event_Count_Description: Few Paranormal Incidents
+Haunted_Places_Year: Other
+Appar_Ghost_Count_Description: Few Sightings
+Dusk_Event_Count_Description: Occasional Events
+Anxiety_Disorder_Count_Description: Unknown
+Audio_Evidence_Count_Description: Little Evidence
+Bipolar_Disorder_Count_Description: Unknown
+PM25_ugm3_Description: Unknown
+Murder_Event_Count_Description: Few Incidents
+Trauma_And_Stressor_Related_Disorder_Count_Description: Unknown
+Binge_Drinking_Rate_Description: Unknown
+id: 4c14e69c-82c4-41a8-9df0-73dcc85d1518
+State: new hampshire
+PM25_nitrate_ugm3_Description: Unknown
+Ozone_ppb_Description: Unknown
+Primary_Schizophrenia_And_Other_Psychotic_Disorders_Count_Description: Unknown
+Morning_Event_Count_Description: Rare Events
+Appar_UFO_Count_Description: Moderate Sightings
+Extreme_Precipitation_Event_Rate_Description: Unknown
+Violent_Crime_Per_100k_Description: Unknown
+Evening_Event_Count_Description: Rare Events
+jaccard_score: 0.05128205128205128

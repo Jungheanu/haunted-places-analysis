@@ -193,7 +193,7 @@ def setup_visualization_directory():
     viz_dirs = {}
     
     # Process each similarity type
-    for sim_type in ["cosine", "jaccard", "edit_distance"]:
+    for sim_type in ["cosine", "jaccard", "edit_value"]:
         # Create directory for this similarity type
         viz_dir = viz_root / sim_type
         viz_dir.mkdir(exist_ok=True)
@@ -336,7 +336,15 @@ def start_visualization_server(directory):
             webbrowser.open(f"http://localhost:{port}/index.html")
             
             # Start server
-            httpd.serve_forever()
+            try:
+                httpd.serve_forever()
+            except KeyboardInterrupt:
+                print("\nServer stopped.")
+                break
+            finally:
+                httpd.shutdown()  # Ensure server shuts down
+                httpd.server_close()  # Close the socket
+            
             break
             
         except OSError as e:
@@ -350,9 +358,9 @@ def start_visualization_server(directory):
             else:
                 print(f"Server error: {e}")
                 return
-        except KeyboardInterrupt:
-            print("\nServer stopped.")
-            break
+        except Exception as e:
+            print(f"Server error: {e}")
+            return
 
 def open_visualizations_without_server(directory):
     """Open the index.html file directly without starting a server"""

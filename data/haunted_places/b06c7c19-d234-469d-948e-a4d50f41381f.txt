@@ -1,0 +1,35 @@
+Homicide_Incidents_Per_100K_Description: Unknown
+Death_Event_Count_Description: Many Incidents
+SO2_ppb_Description: Unknown
+Haunted_Places_Witness_Count_Description: Moderate Witnesses
+Precipitation_Variability_Description: Unknown
+CO_ppb_Description: Unknown
+Primary_Schizophrenia_And_Other_Psychotic_Disorders_Count_Description: Moderate Cases
+PM25_sulfate_ugm3_Description: Unknown
+Appar_Orb_Count_Description: Moderate Sightings
+State: texas
+Bipolar_Disorder_Count_Description: High Prevalence
+Supernatural_Event_Count_Description: Moderate Paranormal Activity
+Annual_Alcohol_Deaths_Description: Unknown
+id: b06c7c19-d234-469d-948e-a4d50f41381f
+Precipitation_Impact_Rate_Description: Unknown
+Murder_Event_Count_Description: Many Incidents
+Visual_Evidence_Count_Description: Some Evidence
+Haunted_Places_Year: Other
+Appar_Ghost_Count_Description: Moderate Sightings
+Dusk_Event_Count_Description: Occasional Events
+Audio_Evidence_Count_Description: Some Evidence
+PM25_ugm3_Description: Unknown
+Attention_Deficit/Hyperactivity_Disorder_Count_Description: Moderate Cases
+Binge_Drinking_Rate_Description: Unknown
+Primary_Depressive_Disorder_Count_Description: Moderate Cases
+Morning_Event_Count_Description: Occasional Events
+PM25_nitrate_ugm3_Description: Unknown
+Ozone_ppb_Description: Unknown
+Evening_Event_Count_Description: Occasional Events
+Anxiety_Disorder_Count_Description: Moderate Cases
+Appar_UFO_Count_Description: Moderate Sightings
+Extreme_Precipitation_Event_Rate_Description: Unknown
+Violent_Crime_Per_100k_Description: Unknown
+Trauma_And_Stressor_Related_Disorder_Count_Description: Moderate Cases
+jaccard_score: 0.05128205128205128

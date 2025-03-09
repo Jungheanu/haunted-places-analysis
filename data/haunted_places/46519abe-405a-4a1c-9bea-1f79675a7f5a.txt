@@ -1,0 +1,35 @@
+Homicide_Incidents_Per_100K_Description: Unknown
+SO2_ppb_Description: Unknown
+Haunted_Places_Witness_Count_Description: Few Witnesses
+CO_ppb_Description: Unknown
+Precipitation_Variability_Description: Unknown
+PM25_sulfate_ugm3_Description: Unknown
+Appar_Orb_Count_Description: Moderate Sightings
+Death_Event_Count_Description: Few Incidents
+Anxiety_Disorder_Count_Description: Few Reported Cases
+Annual_Alcohol_Deaths_Description: Unknown
+Visual_Evidence_Count_Description: Little Evidence
+Precipitation_Impact_Rate_Description: Unknown
+Supernatural_Event_Count_Description: Few Paranormal Incidents
+Haunted_Places_Year: 2021
+Appar_Ghost_Count_Description: Few Sightings
+Primary_Schizophrenia_And_Other_Psychotic_Disorders_Count_Description: Few Reported Cases
+Dusk_Event_Count_Description: Occasional Events
+Audio_Evidence_Count_Description: Little Evidence
+PM25_ugm3_Description: Unknown
+Murder_Event_Count_Description: Few Incidents
+Attention_Deficit/Hyperactivity_Disorder_Count_Description: Moderate Cases
+Binge_Drinking_Rate_Description: Unknown
+Primary_Depressive_Disorder_Count_Description: Moderate Cases
+PM25_nitrate_ugm3_Description: Unknown
+Ozone_ppb_Description: Unknown
+Bipolar_Disorder_Count_Description: Moderate Cases
+Morning_Event_Count_Description: Rare Events
+Appar_UFO_Count_Description: Moderate Sightings
+State: new jersey
+id: 46519abe-405a-4a1c-9bea-1f79675a7f5a
+Extreme_Precipitation_Event_Rate_Description: Unknown
+Violent_Crime_Per_100k_Description: Unknown
+Trauma_And_Stressor_Related_Disorder_Count_Description: Moderate Cases
+Evening_Event_Count_Description: Rare Events
+jaccard_score: 0.05982905982905983
