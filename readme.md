@@ -90,5 +90,14 @@ You can combine these `--skip-*` arguments to skip multiple steps. For example:
 
 *   `python main.py --skip-similarity --skip-clustering --skip-visualization`: Skips the similarity analysis, clustering, and visualization setup steps.
 
+* `python main.py --sample-size <number>`: Runs similarity analysis on a random sample of files rather than the entire dataset. Example: `python main.py --sample-size 1000` will use 1000 randomly selected files for similarity analysis.
 
+For running large batches w/out sleeping
+```
+caffeinate -i python3 main.py
+```
 
+For batch running:
+```
+caffeinate -i python3 main.py --sample-size 100
+```

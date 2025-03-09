@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Main script for Haunted Places Analysis
 
@@ -14,10 +13,22 @@ import os
 import sys
 import argparse
 import subprocess
+import time
 from pathlib import Path
 
+def run_cleanup():
+    project_root = Path(__file__).parent
+    cleanup_script = project_root / "scripts" / "cleanup.py"
+
+    if not cleanup_script.exists():
+        print(f"Cleanup script not found: {cleanup_script}")
+        return False
+
+    command = [sys.executable, str(cleanup_script)]
+    success, _ = run_command(command, "Cleaning up previous run files")
+    return success
+
 def run_command(command, description):
-    """Run a command with proper error handling"""
     print(f"\n=== {description} ===")
     try:
         result = subprocess.run(command, check=True, capture_output=True, text=True)
@@ -33,15 +44,6 @@ def run_command(command, description):
         return False, str(e)
     
 def convert_tsv_to_json(tsv_file):
-    """
-    Convert TSV to JSON using convert-tsv-to-json script
-    
-    Args:
-        tsv_file (str): Path to the TSV file
-        
-    Returns:
-        str: Path to the output JSON file
-    """
     print("\nConverting TSV to JSON...")
     
     # Path to the conversion script
@@ -67,15 +69,6 @@ def convert_tsv_to_json(tsv_file):
         return None
 
 def break_json_to_files(json_file):
-    """
-    Break JSON into individual files using break-json script
-    
-    Args:
-        json_file (str): Path to the JSON file
-        
-    Returns:
-        str: Path to the directory with individual files
-    """
     print("\nBreaking JSON into individual files...")
     
     # Path to the break-json script
@@ -101,7 +94,7 @@ def break_json_to_files(json_file):
         print("Failed to break JSON into individual files")
         return None
 
-def run_similarity_analysis(data_dir):
+def run_similarity_analysis(data_dir, sample_size=None):
     """Run similarity analyses on the data"""
     print("\nRunning similarity analyses...")
 
@@ -113,13 +106,18 @@ def run_similarity_analysis(data_dir):
         print(f"Error: Similarity script not found: {similarity_script}")
         return None
 
-    # Run the similarity script
+    # Build the command
     command = [
         sys.executable,
         str(similarity_script),
         "--input-dir", str(data_dir),
         "--type", "all"  # Run all similarity types
     ]
+    
+    # Add sample size parameter if provided
+    if sample_size:
+        command.extend(["--sample-size", str(sample_size)])
+        print(f"Using sample size: {sample_size}")
 
     success, _ = run_command(command, "Running similarity analysis")
     if success:
@@ -173,6 +171,12 @@ def setup_visualizations():
     
 def main():
     """Main function that orchestrates the entire workflow"""
+    start_time = time.time()  # Add this at the beginning of main()
+    
+    # Run cleanup first
+    if not run_cleanup():
+        print("Cleanup failed or skipped, continuing anyway...")
+    
     # Set up command line arguments
     parser = argparse.ArgumentParser(description="Run Haunted Places Analysis")
     parser.add_argument("--tsv-file", default=None, help="Path to the TSV dataset file")
@@ -181,6 +185,8 @@ def main():
     parser.add_argument("--skip-similarity", action="store_true", help="Skip similarity analysis")
     parser.add_argument("--skip-clustering", action="store_true", help="Skip clustering")
     parser.add_argument("--skip-visualization", action="store_true", help="Skip visualization")
+    parser.add_argument("--sample-size", type=int, default=None, 
+                      help="Number of files to sample for similarity analysis (speeds up processing)")
     
     args = parser.parse_args()
     
@@ -228,7 +234,7 @@ def main():
     
     # Step 3: Run similarity analysis
     if not args.skip_similarity:
-        results_dir = run_similarity_analysis(data_dir)
+        results_dir = run_similarity_analysis(data_dir, args.sample_size)  # Pass args.sample_size here
     else:
         print("\nSkipping similarity analysis step...")
         results_dir = project_root / "similarity-results"
@@ -255,6 +261,8 @@ def main():
         setup_visualizations()
         
         print("\n=== Analysis Complete ===")
+        elapsed_time = time.time() - start_time
+        print(f"Total execution time: {elapsed_time:.2f} seconds ({elapsed_time/60:.2f} minutes)")
         print("To view the results:")
         print(f"1. Open http://localhost:8000 in your browser")
         print(f"   If that doesn't work, check for any messages about an alternative port")
@@ -262,6 +270,8 @@ def main():
     else:
         print("\nSkipping visualization setup...")
         print("\n=== Analysis Complete ===")
+        elapsed_time = time.time() - start_time
+        print(f"Total execution time: {elapsed_time:.2f} seconds ({elapsed_time/60:.2f} minutes)")
         print("To view the results:")
         print(f"1. Run: python {project_root}/scripts/visualize-results.py to start a web server")
         print(f"2. Or open visualizations/index.html directly in your browser")
