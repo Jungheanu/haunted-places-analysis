@@ -152,7 +152,7 @@ def setup_visualizations():
     print("\nSetting up visualization server...")
     
     # Path to the visualization script
-    project_root = Path(__file__).parent  # FIXED: parent instead of parent.parent
+    project_root = Path(__file__).parent
     viz_script = project_root / "scripts" / "visualize-results.py"
     
     if not viz_script.exists():
@@ -160,17 +160,17 @@ def setup_visualizations():
         return False
     
     # Run the visualization script in a separate process so it doesn't block
-    command = [sys.executable, str(viz_script)]
+    command = f"{sys.executable} {str(viz_script)}"
     
     # We don't use run_command here because we want to start the server in the background
     try:
-        subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        subprocess.Popen(command, shell=True, cwd=project_root)
         print("Visualization server started in the background")
         return True
     except Exception as e:
         print(f"Failed to start visualization server: {e}")
         return False
-
+    
 def main():
     """Main function that orchestrates the entire workflow"""
     # Set up command line arguments

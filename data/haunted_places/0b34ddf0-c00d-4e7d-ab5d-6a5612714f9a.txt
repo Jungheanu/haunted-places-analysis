@@ -1,0 +1,35 @@
+Ozone_ppb_Description: Moderate Air Pollution
+Precipitation_Variability_Description: Stable Weather Patterns
+Extreme_Precipitation_Event_Rate_Description: Stable Weather Patterns
+Binge_Drinking_Rate_Description: Low Alcohol Consumption
+Evening_Event_Count_Description: Rare Events
+Attention_Deficit/Hyperactivity_Disorder_Count_Description: Unknown
+Death_Event_Count_Description: Few Incidents
+Dusk_Event_Count_Description: Occasional Events
+Haunted_Places_Witness_Count_Description: Few Witnesses
+SO2_ppb_Description: Good Air Quality
+id: 0b34ddf0-c00d-4e7d-ab5d-6a5612714f9a
+Haunted_Places_Year: 2023
+Homicide_Incidents_Per_100K_Description: High Homicide Rate
+Bipolar_Disorder_Count_Description: Unknown
+Anxiety_Disorder_Count_Description: Unknown
+Visual_Evidence_Count_Description: Little Evidence
+Appar_Ghost_Count_Description: Few Sightings
+Primary_Schizophrenia_And_Other_Psychotic_Disorders_Count_Description: Unknown
+Annual_Alcohol_Deaths_Description: High Alcohol-Related Deaths
+State: california
+Appar_UFO_Count_Description: Moderate Sightings
+Precipitation_Impact_Rate_Description: Unknown
+Morning_Event_Count_Description: Rare Events
+Murder_Event_Count_Description: Few Incidents
+Trauma_And_Stressor_Related_Disorder_Count_Description: Unknown
+Supernatural_Event_Count_Description: Few Paranormal Incidents
+Audio_Evidence_Count_Description: Little Evidence
+PM25_nitrate_ugm3_Description: Poor Air Quality
+Appar_Orb_Count_Description: Moderate Sightings
+CO_ppb_Description: Moderate Air Pollution
+PM25_sulfate_ugm3_Description: Moderate Air Pollution
+Primary_Depressive_Disorder_Count_Description: Unknown
+Violent_Crime_Per_100k_Description: High Crime Rate
+PM25_ugm3_Description: Good Air Quality
+jaccard_score: 0.08547008547008547

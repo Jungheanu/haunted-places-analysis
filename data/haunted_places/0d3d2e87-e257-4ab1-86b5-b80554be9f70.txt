@@ -1,0 +1,35 @@
+Violent_Crime_Per_100k_Description: Low Crime Rate
+PM25_ugm3_Description: Poor Air Quality
+Precipitation_Variability_Description: Stable Weather Patterns
+Annual_Alcohol_Deaths_Description: Moderate Alcohol-Related Deaths
+Extreme_Precipitation_Event_Rate_Description: Stable Weather Patterns
+Homicide_Incidents_Per_100K_Description: Few Homicides
+Evening_Event_Count_Description: Rare Events
+Attention_Deficit/Hyperactivity_Disorder_Count_Description: Unknown
+Death_Event_Count_Description: Few Incidents
+Dusk_Event_Count_Description: Occasional Events
+Haunted_Places_Witness_Count_Description: Few Witnesses
+Ozone_ppb_Description: Good Air Quality
+Haunted_Places_Year: 2023
+Bipolar_Disorder_Count_Description: Unknown
+Anxiety_Disorder_Count_Description: Unknown
+Visual_Evidence_Count_Description: Little Evidence
+Appar_Ghost_Count_Description: Few Sightings
+Primary_Schizophrenia_And_Other_Psychotic_Disorders_Count_Description: Unknown
+Appar_UFO_Count_Description: Moderate Sightings
+Binge_Drinking_Rate_Description: Moderate Alcohol Consumption
+Precipitation_Impact_Rate_Description: Unknown
+Morning_Event_Count_Description: Rare Events
+Murder_Event_Count_Description: Few Incidents
+Trauma_And_Stressor_Related_Disorder_Count_Description: Unknown
+State: pennsylvania
+Supernatural_Event_Count_Description: Few Paranormal Incidents
+id: 0d3d2e87-e257-4ab1-86b5-b80554be9f70
+Audio_Evidence_Count_Description: Little Evidence
+PM25_nitrate_ugm3_Description: Poor Air Quality
+Appar_Orb_Count_Description: Moderate Sightings
+CO_ppb_Description: Moderate Air Pollution
+PM25_sulfate_ugm3_Description: Moderate Air Pollution
+Primary_Depressive_Disorder_Count_Description: Unknown
+SO2_ppb_Description: Moderate Air Pollution
+jaccard_score: 0.08547008547008547

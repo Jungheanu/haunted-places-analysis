@@ -49,5 +49,46 @@ The project includes the following scripts:
 
 To run the entire analysis workflow, use the `main.py` script:
 
+1. Delete all of the existing files:
+- everything in the `data` folder
+- everything in the `datasets` folder
+- everything in the `similarity-results` folder
+- everything in the `cluster-results` folder
+
+
+2. Upload your TSV file to the `datasets` folder.
+
+3. Rename the TSV file to `merged_dataset.tsv`. ## TODO: Update this to be a command line argument
+
+4. Run the `main.py` script from the main project directory:
+
 ```bash
-python main.py --tsv-file datasets/your_data.tsv
+python main.py
+```
+
+## List of Commands
+
+Here's a list of commands you can use to run the analysis, along with their descriptions:
+
+*   `python main.py`: Runs the entire analysis workflow, including TSV to JSON conversion, breaking JSON into files, similarity analysis, clustering, and visualization setup.
+
+*   `python main.py --tsv-file <path_to_tsv_file>`: Runs the entire analysis workflow, using the specified TSV file as input. Replace `<path_to_tsv_file>` with the actual path to your TSV file.
+
+*   `python main.py --skip-convert`: Skips the TSV to JSON conversion step. Assumes a `haunted_places.json` file already exists in the `data` directory.
+
+*   `python main.py --skip-break`: Skips the breaking JSON into individual files step. Assumes individual text files already exist in the `data/haunted_places` directory.
+
+*   `python main.py --skip-similarity`: Skips the similarity analysis step. Assumes similarity results already exist in the `similarity-results` directory.
+
+*   `python main.py --skip-clustering`: Skips the clustering step. Assumes cluster results already exist in the `cluster-results` directory.
+
+*   `python main.py --skip-visualization`: Skips the visualization setup step.
+
+You can combine these `--skip-*` arguments to skip multiple steps. For example:
+
+*   `python main.py --skip-convert --skip-break`: Skips the TSV to JSON conversion and breaking JSON into files steps.
+
+*   `python main.py --skip-similarity --skip-clustering --skip-visualization`: Skips the similarity analysis, clustering, and visualization setup steps.
+
+
+

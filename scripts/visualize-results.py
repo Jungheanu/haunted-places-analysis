@@ -111,13 +111,13 @@ def fix_html_references(viz_dir):
     """Fix references in HTML files to use local resources"""
     for html_file in viz_dir.glob("*.html"):
         print(f"Fixing references in {html_file}")
-        
+    
         with open(html_file, "r", encoding='utf-8', errors='ignore') as f:
             content = f.read()
-        
+    
         # Replace CDN references with local ones
         content = content.replace('http://d3js.org/d3.v3.min.js', 'js/d3.v3.min.js')
-        
+    
         # Add debugging script
         debug_script = """
 <script src="js/debug-helper.js"></script>
@@ -126,7 +126,7 @@ def fix_html_references(viz_dir):
             content = content.replace("</head>", debug_script + "</head>")
         else:
             content = debug_script + content
-        
+    
         # Add basic error handling directly in the HTML
         error_handler = """
 <div id="error-display" style="display:none; color:red; border:1px solid red; padding:10px; margin:10px;">
@@ -155,7 +155,7 @@ document.addEventListener('DOMContentLoaded', function() {
             content = content.replace("</body>", error_handler + "</body>")
         else:
             content += error_handler
-        
+    
         with open(html_file, "w", encoding='utf-8') as f:
             f.write(content)
 
@@ -209,47 +209,49 @@ def setup_visualization_directory():
             if src_file.exists():
                 shutil.copy2(src_file, viz_dir / html_file)
                 print(f"Copied {html_file} to {viz_dir}")
-        
+    
         # Fix HTML references
         fix_html_references(viz_dir)
-        
+    
         # Process the clusters JSON file
         clusters_file = similarity_results / f"{sim_type}_similarity_clusters.json"
         if clusters_file.exists():
             try:
                 with open(clusters_file, 'r') as f:
                     data = json.load(f)
-                
+            
                 # Save specialized formats for different visualizations
                 viz_types = ["circlepacking", "cluster-d3", "dynamic-cluster"]
                 for viz_type in viz_types:
                     formatted_data = prepare_json_for_visualization(data, viz_type)
-                    
+                
                     # Determine output file name
                     if viz_type == "circlepacking":
                         output_file = viz_dir / "circle.json"
-                    else:
+                    elif viz_type == "cluster-d3":
                         output_file = viz_dir / "clusters.json"
-                    
+                    elif viz_type == "dynamic-cluster":
+                        output_file = viz_dir / "dynamic_clusters.json"
+                
                     # Write the file
                     with open(output_file, 'w') as f:
                         json.dump(formatted_data, f, indent=2)
                     print(f"Created JSON for {viz_type} in {output_file}")
-                
+            
                 # Create a backup copy with clear naming
                 with open(viz_dir / f"{sim_type}_data.json", 'w') as f:
                     json.dump(data, f, indent=2)
-                
+            
             except json.JSONDecodeError:
                 print(f"Error: Could not parse {clusters_file} as valid JSON")
             except Exception as e:
                 print(f"Error processing {clusters_file}: {str(e)}")
         else:
             print(f"Warning: {clusters_file} does not exist")
-    
+
     # Create the main index.html
     create_main_index(viz_root, viz_dirs)
-    
+
     return viz_root
 
 def create_main_index(viz_root, viz_dirs):
