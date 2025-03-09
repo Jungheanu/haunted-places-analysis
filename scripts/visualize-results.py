@@ -163,7 +163,7 @@ def prepare_json_for_visualization(data, viz_type):
     """Prepare JSON data for specific visualization types"""
     enhanced_data = enhance_cluster_data(data)
     
-    if viz_type == "dynamic-cluster":
+    if viz_type == "dynamic-circlepacking":  # Updated to match HTML file name
         # Dynamic cluster needs specific format
         formatted_data = {
             "name": "Root",
@@ -203,7 +203,7 @@ def setup_visualization_directory():
         copy_dependencies(tika_html_dir, viz_dir)
         
         # Copy HTML visualization files
-        html_files = ["circlepacking.html", "cluster-d3.html", "dynamic-cluster.html"]
+        html_files = ["circlepacking.html", "cluster-d3.html", "dynamic-circlepacking.html"]
         for html_file in html_files:
             src_file = tika_html_dir / html_file
             if src_file.exists():
@@ -221,7 +221,7 @@ def setup_visualization_directory():
                     data = json.load(f)
             
                 # Save specialized formats for different visualizations
-                viz_types = ["circlepacking", "cluster-d3", "dynamic-cluster"]
+                viz_types = ["circlepacking", "cluster-d3", "dynamic-circlepacking"]  # Updated to match HTML files
                 for viz_type in viz_types:
                     formatted_data = prepare_json_for_visualization(data, viz_type)
                 
@@ -230,8 +230,10 @@ def setup_visualization_directory():
                         output_file = viz_dir / "circle.json"
                     elif viz_type == "cluster-d3":
                         output_file = viz_dir / "clusters.json"
-                    elif viz_type == "dynamic-cluster":
-                        output_file = viz_dir / "dynamic_clusters.json"
+                    elif viz_type == "dynamic-circlepacking":  # Changed from dynamic-cluster
+                        # Note: You need to check what file dynamic-circlepacking.html is looking for
+                        # It's likely circle.json or dynamic_circle.json
+                        output_file = viz_dir / "dynamic_circle.json"  # Adjust this based on what you find
                 
                     # Write the file
                     with open(output_file, 'w') as f:
@@ -268,7 +270,7 @@ def create_main_index(viz_root, viz_dirs):
             <ul>
                 <li><a href="{rel_path}/circlepacking.html" target="_blank">Circle Packing Visualization</a></li>
                 <li><a href="{rel_path}/cluster-d3.html" target="_blank">Cluster Visualization</a></li>
-                <li><a href="{rel_path}/dynamic-cluster.html" target="_blank">Dynamic Cluster Visualization</a></li>
+                <li><a href="{rel_path}/dynamic-circlepacking.html" target="_blank">Dynamic Cluster Visualization</a></li>
             </ul>
         </div>
         """
