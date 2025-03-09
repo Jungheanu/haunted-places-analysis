@@ -84,6 +84,8 @@ Here's a list of commands you can use to run the analysis, along with their desc
 
 *   `python main.py --skip-visualization`: Skips the visualization setup step.
 
+*   `python main.py --skip-cleanup`: Skips the initial cleanup step that deletes files from previous runs.
+
 You can combine these `--skip-*` arguments to skip multiple steps. For example:
 
 *   `python main.py --skip-convert --skip-break`: Skips the TSV to JSON conversion and breaking JSON into files steps.
@@ -100,4 +102,10 @@ caffeinate -i python3 main.py
 For batch running:
 ```
 caffeinate -i python3 main.py --sample-size 100
+```
+
+
+Run only the visualization step without deleting any existing files:
+```
+python3 main.py --skip-cleanup --skip-convert --skip-break --skip-similarity --skip-clustering
 ```

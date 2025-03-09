@@ -185,10 +185,18 @@ def main():
     parser.add_argument("--skip-similarity", action="store_true", help="Skip similarity analysis")
     parser.add_argument("--skip-clustering", action="store_true", help="Skip clustering")
     parser.add_argument("--skip-visualization", action="store_true", help="Skip visualization")
+    parser.add_argument("--skip-cleanup", action="store_true", help="Skip initial cleanup step")
     parser.add_argument("--sample-size", type=int, default=None, 
                       help="Number of files to sample for similarity analysis (speeds up processing)")
     
     args = parser.parse_args()
+    
+    # Skip cleanup if requested
+    if not args.skip_cleanup:
+        if not run_cleanup():
+            print("Cleanup failed, continuing anyway...")
+    else:
+        print("\nSkipping cleanup step...")
     
     # Get project root
     project_root = Path(__file__).parent

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Haunted Places Similarity Visualizations</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; max-width: 800px; margin: 0 auto; }
+        h1 { color: #333; text-align: center; margin-bottom: 30px; }
+        .viz-type { margin-bottom: 30px; padding: 15px; border: 1px solid #ddd; border-radius: 5px; }
+        .viz-type h2 { color: #0066cc; margin-top: 0; }
+        ul { padding-left: 20px; }
+        a { color: #0066cc; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .description { background-color: #f9f9f9; padding: 15px; margin-bottom: 30px; border-left: 4px solid #0066cc; }
+    </style>
+</head>
+<body>
+    <h1>Haunted Places Similarity Visualizations</h1>
+    
+    <div class="description">
+        <p>This page provides visualizations of similarity analyses for haunted places documents.</p>
+        <p>Each visualization type shows different aspects of how the documents relate to each other.</p>
+        <ul>
+            <li><strong>Circle Packing:</strong> Shows document clusters as nested circles</li>
+            <li><strong>Cluster Visualization:</strong> Shows document clusters in a node graph</li>
+            <li><strong>Dynamic Cluster:</strong> Shows an interactive cluster visualization</li>
+        </ul>
+        <p><em>Note: If visualizations don't load correctly, try using a different browser or check the browser console for errors.</em></p>
+    </div>
+    
+    
+        <div class="viz-type">
+            <h2>Cosine</h2>
+            <ul>
+                <li><a href="cosine/circlepacking.html" target="_blank">Circle Packing Visualization</a></li>
+                <li><a href="cosine/cluster-d3.html" target="_blank">Cluster Visualization</a></li>
+                <li><a href="cosine/dynamic-circlepacking.html" target="_blank">Dynamic Cluster Visualization</a></li>
+            </ul>
+        </div>
+        
+        <div class="viz-type">
+            <h2>Jaccard</h2>
+            <ul>
+                <li><a href="jaccard/circlepacking.html" target="_blank">Circle Packing Visualization</a></li>
+                <li><a href="jaccard/cluster-d3.html" target="_blank">Cluster Visualization</a></li>
+                <li><a href="jaccard/dynamic-circlepacking.html" target="_blank">Dynamic Cluster Visualization</a></li>
+            </ul>
+        </div>
+        
+        <div class="viz-type">
+            <h2>Edit Value</h2>
+            <ul>
+                <li><a href="edit_value/circlepacking.html" target="_blank">Circle Packing Visualization</a></li>
+                <li><a href="edit_value/cluster-d3.html" target="_blank">Cluster Visualization</a></li>
+                <li><a href="edit_value/dynamic-circlepacking.html" target="_blank">Dynamic Cluster Visualization</a></li>
+            </ul>
+        </div>
+        
+    
+    <div style="margin-top: 30px; text-align: center; color: #666; font-size: 0.9em;">
+        <p>Generated using Tika Similarity Analysis</p>
+    </div>
+</body>
+</html>
+    

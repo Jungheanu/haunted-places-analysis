@@ -1,0 +1,1371 @@
+{
+  "name": "clusters",
+  "children": [
+    {
+      "children": [
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster0"
+    },
+    {
+      "children": [
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster1"
+    },
+    {
+      "children": [
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster2"
+    },
+    {
+      "children": [
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster3"
+    },
+    {
+      "children": [
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.38461538461538464,
+          "size": 830
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster4"
+    },
+    {
+      "children": [
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.38461538461538464,
+          "size": 830
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster5"
+    },
+    {
+      "children": [
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.38461538461538464,
+          "size": 830
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.38461538461538464,
+          "size": 830
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster6"
+    },
+    {
+      "children": [
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster7"
+    },
+    {
+      "children": [
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.38461538461538464,
+          "size": 830
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster9"
+    },
+    {
+      "children": [
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster10"
+    },
+    {
+      "children": [
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.2857142857142857,
+          "size": 642
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster12"
+    },
+    {
+      "children": [
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.2857142857142857,
+          "size": 642
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.5,
+          "size": 1050
+        }
+      ],
+      "name": "cluster13"
+    },
+    {
+      "children": [
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.38461538461538464,
+          "size": 830
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.38461538461538464,
+          "size": 830
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster14"
+    },
+    {
+      "children": [
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster15"
+    },
+    {
+      "children": [
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.2857142857142857,
+          "size": 642
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster16"
+    },
+    {
+      "children": [
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.5,
+          "size": 1050
+        }
+      ],
+      "name": "cluster17"
+    },
+    {
+      "children": [
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.38461538461538464,
+          "size": 830
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster18"
+    },
+    {
+      "children": [
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster19"
+    },
+    {
+      "children": [
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster20"
+    },
+    {
+      "children": [
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster21"
+    },
+    {
+      "children": [
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster22"
+    },
+    {
+      "children": [
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster23"
+    },
+    {
+      "children": [
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster24"
+    },
+    {
+      "children": [
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster25"
+    },
+    {
+      "children": [
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster26"
+    },
+    {
+      "children": [
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.2857142857142857,
+          "size": 642
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster27"
+    },
+    {
+      "children": [
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.38461538461538464,
+          "size": 830
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster28"
+    },
+    {
+      "children": [
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.2857142857142857,
+          "size": 642
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/bf28bebc-baf0-43b4-95f2-c8d1889c6f38.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster30"
+    },
+    {
+      "children": [
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster31"
+    },
+    {
+      "children": [
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.38461538461538464,
+          "size": 830
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster32"
+    },
+    {
+      "children": [
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.38461538461538464,
+          "size": 830
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster33"
+    },
+    {
+      "children": [
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.38461538461538464,
+          "size": 830
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.38461538461538464,
+          "size": 830
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster34"
+    },
+    {
+      "children": [
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster35"
+    },
+    {
+      "children": [
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.2857142857142857,
+          "size": 642
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster37"
+    },
+    {
+      "children": [
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster38"
+    },
+    {
+      "children": [
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.2857142857142857,
+          "size": 642
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster39"
+    },
+    {
+      "children": [
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.38461538461538464,
+          "size": 830
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster40"
+    },
+    {
+      "children": [
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.2857142857142857,
+          "size": 642
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster42"
+    },
+    {
+      "children": [
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster43"
+    },
+    {
+      "children": [
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.2857142857142857,
+          "size": 642
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster44"
+    },
+    {
+      "children": [
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.38461538461538464,
+          "size": 830
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster45"
+    },
+    {
+      "children": [
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster46"
+    },
+    {
+      "children": [
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster47"
+    },
+    {
+      "children": [
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.2857142857142857,
+          "size": 642
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.5,
+          "size": 1050
+        }
+      ],
+      "name": "cluster48"
+    },
+    {
+      "children": [
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.38461538461538464,
+          "size": 830
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster49"
+    },
+    {
+      "children": [
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.5,
+          "size": 1050
+        }
+      ],
+      "name": "cluster50"
+    },
+    {
+      "children": [
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.38461538461538464,
+          "size": 830
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster51"
+    },
+    {
+      "children": [
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "da484e08-b92b-43a8-a67c-65d1266dbb8d.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/da484e08-b92b-43a8-a67c-65d1266dbb8d.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster52"
+    },
+    {
+      "children": [
+        {
+          "name": "092ee77b-059d-4c68-b5f7-52640b44f99c.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/092ee77b-059d-4c68-b5f7-52640b44f99c.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "092ee77b-059d-4c68-b5f7-52640b44f99c.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/092ee77b-059d-4c68-b5f7-52640b44f99c.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster53"
+    },
+    {
+      "children": [
+        {
+          "name": "092ee77b-059d-4c68-b5f7-52640b44f99c.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/092ee77b-059d-4c68-b5f7-52640b44f99c.txt\n",
+          "score": 0.5,
+          "size": 1050
+        },
+        {
+          "name": "092ee77b-059d-4c68-b5f7-52640b44f99c.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/092ee77b-059d-4c68-b5f7-52640b44f99c.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        },
+        {
+          "name": "092ee77b-059d-4c68-b5f7-52640b44f99c.txt",
+          "path": "/Users/jfulch/git/school/haunted-places-analysis/data/sample_files/092ee77b-059d-4c68-b5f7-52640b44f99c.txt\n",
+          "score": 0.6363636363636364,
+          "size": 1309
+        }
+      ],
+      "name": "cluster54"
+    }
+  ]
+}
