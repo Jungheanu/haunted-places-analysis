@@ -171,13 +171,9 @@ def setup_visualizations():
     
 def main():
     """Main function that orchestrates the entire workflow"""
-    start_time = time.time()  # Add this at the beginning of main()
+    start_time = time.time()
     
-    # Run cleanup first
-    if not run_cleanup():
-        print("Cleanup failed or skipped, continuing anyway...")
-    
-    # Set up command line arguments
+    # FIRST: Parse arguments
     parser = argparse.ArgumentParser(description="Run Haunted Places Analysis")
     parser.add_argument("--tsv-file", default=None, help="Path to the TSV dataset file")
     parser.add_argument("--skip-convert", action="store_true", help="Skip TSV to JSON conversion")
@@ -191,13 +187,13 @@ def main():
     
     args = parser.parse_args()
     
-    # Skip cleanup if requested
+    # THEN: Conditionally run cleanup
     if not args.skip_cleanup:
         if not run_cleanup():
             print("Cleanup failed, continuing anyway...")
     else:
         print("\nSkipping cleanup step...")
-    
+        
     # Get project root
     project_root = Path(__file__).parent
     

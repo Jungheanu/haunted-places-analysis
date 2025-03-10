@@ -27,13 +27,23 @@ def convert_csv_to_similarity_scores(csv_file, output_file):
             print(f"Warning: Empty file or no header: {csv_file}")
             return False
             
-        count = 0
+        # With this new code:
+        rows = []
         for row in reader:
             if len(row) >= 3:
-                file1, file2, score = row[0], row[1], row[2]
-                # Format: filename,score,path
-                f_out.write(f"{os.path.basename(file1)},{score},{file1}\n")
-                count += 1
+                file1, file2, score = row[0], row[1], float(row[2])
+                # Add both files to improve clustering
+                rows.append((file1, score, file1))
+                rows.append((file2, score, file2))
+
+        # Sort by score descending
+        rows.sort(key=lambda x: x[1], reverse=True)
+
+        # Then write the sorted data
+        count = 0
+        for file_path, score, path in rows:
+            f_out.write(f"{os.path.basename(file_path)},{score},{file_path}\n")
+            count += 1
                 
         print(f"Converted {csv_file} to {output_file} ({count} entries)")
         return True if count > 0 else False
@@ -81,6 +91,52 @@ def run_cluster_scores(script_path, working_dir, input_file, output_file, thresh
         temp_output = os.path.join(working_dir, "clusters.json")
         if os.path.exists(temp_output):
             os.remove(temp_output)
+
+def extract_file_content(file_path, max_length=50):
+    """Extract meaningful content from a file for display purposes"""
+    try:
+        with open(file_path, 'r') as f:
+            content = f.read().strip()
+            # Extract first 50 characters or first line
+            if '\n' in content[:100]:
+                return content.split('\n')[0][:max_length]
+            return content[:max_length]
+    except:
+        return os.path.basename(file_path)
+
+def name_cluster_by_common_terms(items):
+    """Name a cluster based on common terms in its items"""
+    # Collect all content
+    all_content = []
+    for item in items:
+        path = item.get("path", "")
+        if path:
+            content = extract_file_content(path)
+            all_content.append(content)
+    
+    if not all_content:
+        return "Cluster"
+    
+    # Use a simple approach to find common words
+    from collections import Counter
+    import re
+    
+    words = []
+    for content in all_content:
+        words.extend(re.findall(r'\b[a-zA-Z]{4,}\b', content.lower()))
+    
+    # Remove common stopwords
+    stopwords = {'the', 'and', 'was', 'for', 'that', 'this', 'with', 'have'}
+    words = [w for w in words if w not in stopwords]
+    
+    # Get most common terms
+    most_common = Counter(words).most_common(3)
+    if most_common:
+        terms = [term for term, _ in most_common]
+        return f"Cluster: {', '.join(terms)}"
+    else:
+        return "Cluster"
+
 
 def create_circle_json(clusters_json_path, output_file):
     """

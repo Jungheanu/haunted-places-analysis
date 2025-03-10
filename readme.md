@@ -95,17 +95,25 @@ You can combine these `--skip-*` arguments to skip multiple steps. For example:
 * `python main.py --sample-size <number>`: Runs similarity analysis on a random sample of files rather than the entire dataset. Example: `python main.py --sample-size 1000` will use 1000 randomly selected files for similarity analysis.
 
 For running large batches w/out sleeping
-```
+```bash
 caffeinate -i python3 main.py
 ```
 
 For batch running:
-```
+```bash
 caffeinate -i python3 main.py --sample-size 100
 ```
 
 
 Run only the visualization step without deleting any existing files:
-```
+```bash
 python3 main.py --skip-cleanup --skip-convert --skip-break --skip-similarity --skip-clustering
+```
+
+```bash
+caffeinate -i python3 main.py --tsv-file datasets/merged_dataset_revised.tsv
+```
+
+```bash
+python scripts/run-tika-similarity.py --type jaccard --input-dir data/haunted_places
 ```
