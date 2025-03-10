@@ -236,6 +236,57 @@ def create_d3_cluster_json(clusters_json_path, output_file):
     except Exception as e:
         print(f"Error creating D3 cluster JSON: {e}")
         return False
+    
+def run_circle_packing(results_dir, sim_type):
+    """Run the original circle-packing visualization"""
+    project_root = Path(__file__).parent.parent
+    circle_packing_script = project_root / "tika-similarity" / "tikasimilarity" / "cluster" / "circle-packing.py"
+    
+    if not os.path.exists(circle_packing_script):
+        print(f"Error: Circle packing script not found: {circle_packing_script}")
+        return False
+        
+    # Create a properly formatted similarity-scores.txt for the script
+    txt_file = results_dir / f"{sim_type}_similarity-scores.txt"
+    circle_json = results_dir / f"{sim_type}_metadata_circle.json"
+    
+    # Need to convert your CSV to the expected format
+    csv_file = results_dir / f"{sim_type}_similarity.csv"
+    
+    if not os.path.exists(csv_file):
+        print(f"Error: CSV file not found: {csv_file}")
+        return False
+    
+    # Convert to the specific format needed by circle-packing.py
+    with open(csv_file, 'r') as f_in, open(txt_file, 'w') as f_out:
+        reader = csv.reader(f_in)
+        header = next(reader, None)  # Skip header
+        
+        for row in reader:
+            if len(row) >= 3:
+                file1, file2, score = row[0], row[1], float(row[2])
+                # Format needed by circle-packing.py:
+                f_out.write(f"{os.path.basename(file1)},{score},{{}}\n")
+    
+    # Change to results directory
+    original_dir = os.getcwd()
+    os.chdir(results_dir)
+    
+    try:
+        # Run the circle packing script
+        command = [sys.executable, str(circle_packing_script)]
+        subprocess.run(command, check=False)
+        
+        # Rename the output file
+        if os.path.exists("circle.json"):
+            shutil.move("circle.json", circle_json)
+            print(f"Created metadata circle visualization: {circle_json}")
+            return True
+        else:
+            print("Error: circle.json not created")
+            return False
+    finally:
+        os.chdir(original_dir)
 
 def main():
     # Get project paths
@@ -294,6 +345,10 @@ def main():
         cluster_d3_json = results_dir / f"{sim_type}_cluster_d3.json"
         print(f"  Creating D3 cluster visualization format")
         create_d3_cluster_json(str(clusters_json), str(cluster_d3_json))
+        
+         # Step 5: Add the circle packing visualization (original Tika method)
+        print(f"  Creating metadata-based circle packing visualization")
+        run_circle_packing(results_dir, sim_type)
     
     print("\nAll JSON files generated successfully in:", results_dir)
     print("The following files can be used with visualization HTML files:")

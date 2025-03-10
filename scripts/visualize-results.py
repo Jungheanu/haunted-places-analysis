@@ -285,7 +285,7 @@ def setup_visualization_directory():
 
 def create_main_index(viz_root, viz_dirs):
     """Create a main index.html to navigate between visualizations"""
-    
+        
     links_html = ""
     for sim_type, viz_dir in viz_dirs.items():
         type_name = sim_type.replace("_", " ").title()
@@ -298,6 +298,8 @@ def create_main_index(viz_root, viz_dirs):
                 <li><a href="{rel_path}/circlepacking.html" target="_blank">Circle Packing Visualization</a></li>
                 <li><a href="{rel_path}/cluster-d3.html" target="_blank">Cluster Visualization</a></li>
                 <li><a href="{rel_path}/dynamic-circlepacking.html" target="_blank">Dynamic Cluster Visualization</a></li>
+                <li><a href="{rel_path}/circlepacking.html?file={sim_type}_similarity_metadata_circle.json" target="_blank">
+                    Metadata Circle Packing</a></li>
             </ul>
         </div>
         """
