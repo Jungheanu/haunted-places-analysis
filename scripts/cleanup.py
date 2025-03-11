@@ -19,8 +19,7 @@ def main():
     paths_to_delete = [
         project_root / "datasets" / "merged_dataset.json",
         project_root / "datasets" / "column_headers.txt",
-        project_root / "data" / "haunted_places",
-        project_root / "data" / "sample_files",
+        project_root / "data",
         project_root / "similarity-results",
         project_root / "visualizations"
     ]

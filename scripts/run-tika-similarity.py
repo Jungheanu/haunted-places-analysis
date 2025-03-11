@@ -1,8 +1,8 @@
 import os
-#os.environ["TIKA_CLIENT_ONLY"] = "True"
-# os.environ["TIKA_STARTUP_SLEEP"] = "20"
-# os.environ["TIKA_STARTUP_MAX_RETRY"] = "10" 
-# os.environ["TIKA_TIMEOUT"] = "1200"  # 20-minute timeout
+os.environ["TIKA_CLIENT_ONLY"] = "True"
+os.environ["TIKA_STARTUP_SLEEP"] = "20"
+os.environ["TIKA_STARTUP_MAX_RETRY"] = "10" 
+os.environ["TIKA_TIMEOUT"] = "1200"  # 20-minute timeout
 import sys
 import argparse
 import subprocess

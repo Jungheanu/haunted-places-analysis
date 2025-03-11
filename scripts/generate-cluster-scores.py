@@ -95,29 +95,50 @@ def run_cluster_scores(script_path, working_dir, input_file, output_file, thresh
 def extract_file_content(file_path, max_length=50):
     """Extract meaningful content from a file for display purposes"""
     try:
+        print(f"DEBUG: Reading content from {file_path}")
+        if not os.path.exists(file_path):
+            print(f"DEBUG: File not found: {file_path}")
+            return os.path.basename(file_path)
+            
         with open(file_path, 'r') as f:
             content = f.read().strip()
-            # Extract first 50 characters or first line
-            if '\n' in content[:100]:
-                return content.split('\n')[0][:max_length]
-            return content[:max_length]
-    except:
+            result = content[:50]
+            print(f"DEBUG: Content: {result}")
+            return result
+    except Exception as e:
+        print(f"DEBUG: Error reading {file_path}: {str(e)}")
         return os.path.basename(file_path)
 
-def name_cluster_by_common_terms(items):
-    """Name a cluster based on common terms in its items"""
-    # Collect all content
+def name_cluster_by_common_terms(items, content_dict=None):
+    """Name a cluster based on common terms found in its items"""
     all_content = []
     for item in items:
         path = item.get("path", "")
-        if path:
-            content = extract_file_content(path)
-            all_content.append(content)
+        item_name = item.get("name", "")
+        item_key = os.path.basename(path)
+        content = None
+        
+        # Try all possible ways to get content
+        if content_dict and item_key in content_dict:
+            content = content_dict[item_key]
+        elif content_dict and path in content_dict:
+            content = content_dict[path]
+        elif path and os.path.exists(path):
+            try:
+                with open(path, 'r') as f:
+                    content = f.read()
+            except:
+                pass
+                
+        if not content:
+            content = item_name
+            
+        all_content.append(content)
     
     if not all_content:
         return "Cluster"
     
-    # Use a simple approach to find common words
+    # Extract meaningful words
     from collections import Counter
     import re
     
@@ -125,8 +146,9 @@ def name_cluster_by_common_terms(items):
     for content in all_content:
         words.extend(re.findall(r'\b[a-zA-Z]{4,}\b', content.lower()))
     
-    # Remove common stopwords
-    stopwords = {'the', 'and', 'was', 'for', 'that', 'this', 'with', 'have'}
+    # Expanded stopwords list
+    stopwords = {'the', 'and', 'was', 'for', 'that', 'this', 'with', 'have', 
+                'were', 'they', 'our', 'what', 'when', 'from', 'your', 'been'}
     words = [w for w in words if w not in stopwords]
     
     # Get most common terms
@@ -137,15 +159,8 @@ def name_cluster_by_common_terms(items):
     else:
         return "Cluster"
 
+def create_circle_json(clusters_json_path, output_file, content_dict=None):
 
-def create_circle_json(clusters_json_path, output_file):
-    """
-    Create a circle.json file from a clusters.json file
-    
-    Args:
-        clusters_json_path (str): Path to the clusters.json file
-        output_file (str): Path to write the circle.json file
-    """
     if not os.path.exists(clusters_json_path):
         print(f"Error: Clusters file not found: {clusters_json_path}")
         return False
@@ -162,23 +177,44 @@ def create_circle_json(clusters_json_path, output_file):
         
         if "children" in clusters_data:
             for i, cluster in enumerate(clusters_data["children"]):
+                # cluster_node = {
+                #     "name": name_cluster_by_common_terms(cluster.get("children", [])),  # Using content-based name
+                #     "children": []
+                # }
                 cluster_node = {
-                    "name": f"Cluster {i+1}",
+                    "name": name_cluster_by_common_terms(cluster.get("children", []), content_dict),  # Pass content_dict
                     "children": []
                 }
                 
                 if "children" in cluster:
                     for j, item in enumerate(cluster["children"]):
-                        item_name = item.get("name", f"Item {j+1}")
-                        try:
-                            item_score = float(item.get("score", 0.5))
-                        except (ValueError, TypeError):
-                            item_score = 0.5
+                        item_path = item.get("path", "")
+                        item_name_key = os.path.basename(item_path)  # This is the UUID filename
                         
-                        cluster_node["children"].append({
-                            "name": item_name,
-                            "size": int(100 + item_score * 1900)
-                        })
+                        # Try all possible ways to get meaningful content
+                        if content_dict and item_name_key in content_dict:
+                            item_name = content_dict[item_name_key]
+                            print(f"Using content from dictionary: {item_name[:20]}...")
+                        elif content_dict and item_path in content_dict:
+                            item_name = content_dict[item_path]
+                        elif os.path.exists(item_path):
+                            # Direct file access as fallback
+                            with open(item_path, 'r') as f:
+                                item_name = f.readline().strip()[:50]
+                        else:
+                            # Last resort - use the name from JSON
+                            item_name = item.get("name", f"Item {j+1}")
+                                
+                            # Add to the cluster node with score
+                            try:
+                                item_score = float(item.get("score", 0.5))
+                            except (ValueError, TypeError):
+                                item_score = 0.5
+                            
+                            cluster_node["children"].append({
+                                "name": item_name,
+                                "size": int(100 + item_score * 1900)
+                            })
                 
                 circle_data["children"].append(cluster_node)
         
@@ -192,7 +228,7 @@ def create_circle_json(clusters_json_path, output_file):
         print(f"Error creating circle.json: {e}")
         return False
 
-def create_d3_cluster_json(clusters_json_path, output_file):
+def create_d3_cluster_json(clusters_json_path, output_file, content_dict=None):
     """
     Create a D3 cluster JSON from a clusters.json file
     
@@ -211,20 +247,39 @@ def create_d3_cluster_json(clusters_json_path, output_file):
         # Create D3 force-directed graph format
         nodes = [{"name": "Root", "group": 1}]
         links = []
-        
+    
         if "children" in clusters_data:
+            # First create cluster nodes
             for i, cluster in enumerate(clusters_data["children"]):
                 cluster_id = len(nodes)
-                cluster_name = cluster.get("name", f"Cluster {i+1}")
+                #cluster_name = name_cluster_by_common_terms(cluster.get("children", []))
+                cluster_name = name_cluster_by_common_terms(cluster.get("children", []), content_dict)
                 nodes.append({"name": cluster_name, "group": 2})
-                links.append({"source": 0, "target": cluster_id, "value": 2})
+                links.append({"source": 0, "target": cluster_id, "value": 2})  # Link to root
                 
+                # Then create item nodes that link to their parent cluster
                 if "children" in cluster:
                     for j, item in enumerate(cluster["children"]):
                         item_id = len(nodes)
-                        item_name = item.get("name", f"Item {j+1}")
+                        item_path = item.get("path", "")
+                        
+                        # Extract content for better naming
+                        try:
+                            if content_dict and os.path.basename(item_path) in content_dict:
+                                item_name = content_dict[os.path.basename(item_path)]
+                            elif content_dict and item_path in content_dict:
+                                item_name = content_dict[item_path]
+                            elif item_path and os.path.exists(item_path):
+                                with open(item_path, 'r') as f:
+                                    first_line = f.readline().strip()[:50]
+                                    item_name = first_line if first_line else os.path.basename(item_path)
+                            else:
+                                item_name = item.get("name", f"Item {j+1}")
+                        except:
+                            item_name = item.get("name", f"Item {j+1}")
+                        
                         nodes.append({"name": item_name, "group": 3})
-                        links.append({"source": cluster_id, "target": item_id, "value": 1})
+                        links.append({"source": cluster_id, "target": item_id, "value": 1})  # Link to parent cluster
         
         d3_data = {"nodes": nodes, "links": links}
         with open(output_file, 'w') as f:
@@ -296,6 +351,30 @@ def main():
     
     # Create results directory if it doesn't exist
     results_dir.mkdir(exist_ok=True)
+    document_content = {}
+    
+    # Start of main() function after loading document_content
+    print(f"Loaded {len(document_content)} document contents:")
+    for i, (key, value) in enumerate(list(document_content.items())[:5]):
+        print(f"  Sample {i+1}: {key} -> {value[:30]}")
+    
+    # Get actual content from files in haunted_places directory
+    data_dir = project_root / "data" / "haunted_places"
+    if data_dir.exists():
+        print("Pre-loading document content...")
+        for file_path in data_dir.glob("*"):
+            if file_path.is_file():
+                try:
+                    with open(file_path, 'r') as f:
+                        first_line = f.readline().strip()
+                        content = first_line[:50]
+                        # Store with both full path and basename as keys
+                        document_content[str(file_path)] = content
+                        document_content[file_path.name] = content
+                        # Also store without extension
+                        document_content[file_path.stem] = content
+                except Exception as e:
+                    print(f"Could not read {file_path}: {e}")
     
     # Define the similarity types to process
     similarity_types = [
@@ -339,12 +418,12 @@ def main():
         # Step 3: Create circle.json for circle packing visualization
         circle_json = results_dir / f"{sim_type}_circle.json"
         print(f"  Creating circle.json for circle packing visualization")
-        create_circle_json(str(clusters_json), str(circle_json))
+        create_circle_json(str(clusters_json), str(circle_json), document_content)
         
         # Step 4: Create D3 JSON for cluster visualization
         cluster_d3_json = results_dir / f"{sim_type}_cluster_d3.json"
         print(f"  Creating D3 cluster visualization format")
-        create_d3_cluster_json(str(clusters_json), str(cluster_d3_json))
+        create_d3_cluster_json(str(clusters_json), str(cluster_d3_json), document_content)
         
          # Step 5: Add the circle packing visualization (original Tika method)
         print(f"  Creating metadata-based circle packing visualization")

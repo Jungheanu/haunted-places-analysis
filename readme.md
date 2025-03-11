@@ -117,3 +117,12 @@ caffeinate -i python3 main.py --tsv-file datasets/merged_dataset_revised.tsv
 ```bash
 python scripts/run-tika-similarity.py --type jaccard --input-dir data/haunted_places
 ```
+
+To start a local tika-server
+```bash
+tika-rest-server
+```
+Shutdown
+```bash
+tika-rest-server --stop
+```
